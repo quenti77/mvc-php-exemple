@@ -1,0 +1,22 @@
+{
+    "name": "quenti77/mvc-php",
+    "description": "Exemple de MVC sans lib externe",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "quenti77",
+            "email": "quentin.ysambert@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Mvc\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2",
+        "ext-pdo": "*"
+    }
+}
